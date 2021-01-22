@@ -21,7 +21,7 @@ export default class BlogPage extends React.Component<BlogPageProps> {
           key={i}
           id={entry.id}
           slug={entry.slug}
-          imageUrl={entry.heroImage.imageUrl}
+          imageUrl={entry.heroImage}
           title={entry.title}
           author={entry.author.name}
           description={entry.description}
